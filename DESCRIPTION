@@ -1,0 +1,29 @@
+Package: genesengStats
+Title: Simple functions to make preliminary analysis
+Version: 1.0.0
+Description: Providing best-in-class methods to quickly describe a tabular dataset.
+Authors@R: 
+    person(given = "Alex",
+           family = "Yahiaoui Martinez",
+           role = c("aut", "cre"),
+           email = "yahiaoui-martinez.alex@outlook.com")
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: false
+RoxygenNote: 7.2.1
+Imports: 
+     broom,
+     caret,
+     dplyr,
+     e1071,
+     MLmetrics,
+     nnet,
+     pROC,
+     purrr, 
+     reshape2,
+     rstatix,
+     stats,
+     tidyr, 
+     utils
+URL: https://github.com/geneseng/genesengStats
+BugReports: https://github.com/geneseng/genesengStats/issues
